@@ -16,7 +16,7 @@
 
       然后经过复杂的浏览数据，其实就是数一共多少行时顺道看了一眼（手动滑稽），发现第六个参数和第七个参数（注册平台和注册类型）好像均为unknown，经检验发现确实无用
 
-      ![image-20191203014223115](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191203014223115.png)
+      ![image-20191203014223115](http://static.zybuluo.com/buchiyexiao/lpuv3a2n5u617s5wm4ppb1ay/image-20191203014223115.png)
 
       由于用户信息中部分信息离线程度较大，因此我们引入了LabelEncoder来将离散型的数据转化为0至n-1之间的数据，以便于后续的分类和处理
 
@@ -94,19 +94,19 @@
 
   - Catboost
 
-    ![image-20191203020649376](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191203020649376.png)
+    ![image-20191203020649376](http://static.zybuluo.com/buchiyexiao/by3ducufvczsge4yhucmchaw/image-20191203020649376.png)
 
   - Stacking
 
-    ![image-20191203022124583](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191203022124583.png)
+    ![image-20191203022124583](http://static.zybuluo.com/buchiyexiao/r5bf1n2mmru0197e8q8wjt9n/image-20191203020745143.png)
 
   - Xgboost
 
-    ![image-20191203022250837](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191203022250837.png)
+    ![image-20191203022250837](http://static.zybuluo.com/buchiyexiao/8rbpw1jv7tdf46hsl5jbzxud/image-20191203022250837.png)
 
   - Stacking2
 
-    ![image-20191203022346937](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191203022346937.png)
+    ![image-20191203022346937](http://static.zybuluo.com/buchiyexiao/ngqh9r70vilj5gpfbbvvbulq/image-20191203022346937.png)
 
     经过计算可以得到，尽管额外融合了Lasso回归模型，但是Stacking模型的效果仍不如boost模型，Catboost模型和Xgboost模型中，Catboost模型更胜一筹
 
